@@ -45,8 +45,16 @@ h1 {
     color: #615151;
 }
 
+
+
 @media screen and  (max-width: 767px) {
     .navbar-brand {
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .principal-inferior-imagen {
+        max-width: 600px;
     }
 }
