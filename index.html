@@ -30,16 +30,16 @@
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" aria-disabled="true">Testimonios</a>
+            <a class="nav-link" href="#testimonios" aria-disabled="true">Testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" aria-disabled="true">Contacto</a>
+            <a class="nav-link" href="#contacto" aria-disabled="true">Contacto</a>
           </li>
         </ul>
       </div>
@@ -57,7 +57,7 @@
         alt="monitor, laptop y logos de lengiajes">
     </div>
   </section>
-  <section class="sobre-mi seccion-oscura ">
+  <section id="sobre-mi" class="sobre-mi seccion-oscura ">
     <!--sobre mi-->
     <div class="contenedor ">
       <h2 class="seccion-titulo ">Conoce a Joe Doe</h2>
@@ -95,7 +95,7 @@
     </div>
   </section>
   <!--proyectos-->
-  <section class="proyectos seccion-clara d-flex flex-column">
+  <section id="proyectos" class="proyectos seccion-clara d-flex flex-column">
     <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
     <h3 class="seccion-descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
     <!--galeria-->
@@ -243,7 +243,7 @@
     </a>
   </section>
   <!--testimonio-->
-  <section class="testimonios seccion-clara">
+  <section id="testimonios" class="testimonios seccion-clara">
     <h2 class="seccion-titulo">Testimonios</h2>
     <h3 class="seccion-descripcion">Estos son los testimonios</h3>
     <!-- Carrusel -->
@@ -316,6 +316,25 @@
       </div>
     </div>
   </section>
+  <!--pie-->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo">
+    <p class="footer-texto text-center">
+      aprendo y creo todo los dias<br>creemos un proyecto juntos
+    </p>
+    <div class="iconos-rrss d-flex flex-wrap align-items-center justify-content-center">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <div class="copy">creado por A.J Mareco (2023-2024) &#169;</div>
+  </footer>
   <!--bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

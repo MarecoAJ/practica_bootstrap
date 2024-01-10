@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 /*general*/
 section {
@@ -277,27 +278,27 @@ h1 {
     max-width: 1100px;
     min-height: 200px;
     padding: 20px;
-  }
-  
-  .contacto .rectangulo {
+}
+
+.contacto .rectangulo {
     margin-top: -5rem;
     background-color: rgb(13, 110, 253);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
-  }
-  
-  .contacto .row {
+}
+
+.contacto .row {
     width: 100%;
     display: flex;
     align-items: center;
-  }
-  
-  .contacto .descripcion {
+}
+
+.contacto .descripcion {
     color: white;
     font-size: 1.2rem;
-  }
-  
-  .contacto button {
+}
+
+.contacto button {
     color: white;
     font-weight: bold;
     background-color: transparent;
@@ -306,22 +307,75 @@ h1 {
     margin: 10px;
     border-radius: 100px;
     transition: all 0.2s ease-in-out;
-  }
-  
-  .contacto button:hover {
+}
+
+.contacto button:hover {
     background-color: white;
     color: black;
-  }
-  
-  .contacto button i {
+}
+
+.contacto button i {
     color: white;
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
-  }
-  
-  .contacto button:hover i {
+}
+
+.contacto button:hover i {
     color: black;
-  }
+}
+
+/*pie*/
+
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-rrss a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-rrss i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-rrss a:hover {
+    color: white;
+    border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-rrss i:hover {
+    color: black;
+}
+
+.copy {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
