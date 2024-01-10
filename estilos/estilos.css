@@ -21,7 +21,7 @@ h1 {
 
 .seccion-clara {
     color: black;
-    background-color: white; 
+    background-color: white;
 }
 
 .seccion-titulo {
@@ -32,7 +32,7 @@ h1 {
 
 .seccion-descripcion {
     font-size: 1.2rem;
-    color: #584e4e;  
+    color: #584e4e;
 }
 
 .seccion-texto {
@@ -41,11 +41,11 @@ h1 {
 
 .texto-negro {
     color: black;
-  }
-  
+}
+
 .texto-blanco {
     color: white;
-  }
+}
 
 .btn-info {
     font-size: 1.1rem;
@@ -55,11 +55,11 @@ h1 {
 /*barra*/
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;  
+    background-color: #f5f6f7;
 }
 
 .navbar-collapse {
-    align-items:  center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -123,7 +123,7 @@ h1 {
     background-color: #0a0a23;
     padding: 8px 19px;
     border-radius: 50%;
-} 
+}
 
 .experiencia-titulo {
     font-size: 25px;
@@ -169,35 +169,35 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  .overlay p {
+}
+
+.overlay p {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
-  }
-  
-  .proyecto {
+}
+
+.proyecto {
     position: relative;
-  }
-  
-  .proyecto:hover img {
+}
+
+.proyecto:hover img {
     opacity: 0.2;
-  }
-  
-  .proyecto:hover .overlay {
+}
+
+.proyecto:hover .overlay {
     opacity: 1;
-  }
+}
 
-  .overlay .iconos-contenedor {
+.overlay .iconos-contenedor {
     display: flex;
-  }
+}
 
-  .overlay i {
+.overlay i {
     color: black;
     font-size: 60px;
     margin: 10px;
-  }
+}
 
 /*articulos*/
 
@@ -209,7 +209,7 @@ h1 {
 .articulos .card {
     width: 80%;
     max-width: 600px;
-    margin: 20px; 
+    margin: 20px;
 }
 
 .articulos .card-header {
@@ -264,14 +264,66 @@ h1 {
 
 .testimonio-footer .cliente {
     font-size: 1.2rem;
-  }
-  
-  .testimonio-info .cargo {
+}
+
+.testimonio-info .cargo {
     font-size: 0.9rem;
     color: #656060;
+}
+
+/*contacto*/
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+  }
+  
+  .contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+  }
+  
+  .contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .contacto button:hover i {
+    color: black;
   }
 
-@media screen and  (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
     }
